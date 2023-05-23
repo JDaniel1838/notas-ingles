@@ -1,10 +1,9 @@
-import React from "react";
-import "../styles/BackgroundGradients.css";
+import "../styles/ListNotes.css";
 
 const ListNotes = () => {
   return (
     <section className="my-8 w-full h-auto grid grid-cols-2 gap-4">
-      <div className="bg-adjetives h-72 flex flex-col justify-center items-center rounded-lg shadow-lg  shadow-zinc-500/40">
+      <div className="bg-adjetives h-72 flex flex-col justify-center items-center rounded-lg hover:bg-indigo-500 shadow-lg hover:shadow-indigo-500/50 ">
         <span className="text-white text-6xl mb-2"></span>
         <a href="/adjetivos" className="text-white text-3xl font-bold">
           Adjetivos

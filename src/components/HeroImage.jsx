@@ -4,10 +4,13 @@ import "../styles/HeroImages.css";
 const HeroImage = () => {
   return (
     <>
-      <header className="w-100 h-40 hero-bg-blue ">
+      <header className="w-100 div-hero ">
         <div className="w-full h-full container mx-auto flex flex-col justify-center items-center">
-          <h1 className="text-3xl font-bold text-white">
-            MIS NOTAS DE INGLES 📖
+          <h1 className="font-extrabold text-7xl text-center">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-teal-300">
+              MIS NOTAS DE INGLES
+            </span>
+            <span>📖</span>
           </h1>
         </div>
       </header>

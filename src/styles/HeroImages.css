@@ -1,3 +1,8 @@
-.hero-bg-blue {
-  background-image: linear-gradient(to left, #00c6fb 0%, #005bea 100%);
+.div-hero {
+  height: 50vh;
+  background-image: url("/svg/bg-hero-image.svg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -1,0 +1,22 @@
+.bg-adjetives {
+  background-image: linear-gradient(
+      -20deg,
+      rgba(185, 33, 255, 0.75) 0%,
+      hwb(191 13% 1% / 0.65) 100%
+    ),
+    url("/img/bg-adjetives.jpg");
+  transition: 0.3s;
+  background-position: center;
+  cursor: pointer;
+}
+
+.bg-adjetives:hover {
+  background-image: linear-gradient(
+      -20deg,
+      rgba(185, 33, 255, 0.93) 0%,
+      hwb(191 13% 1% / 0.72) 100%
+    ),
+    url("/img/bg-adjetives.jpg");
+  transform: scale(1.05);
+  transition: 0.3s;
+}
