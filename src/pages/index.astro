@@ -5,7 +5,11 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Mis Notas de Ingles">
-  <HeroImage />
+  <HeroImage
+    title="MIS NOTAS DE INGLES"
+    gradients={{ top: "from-sky-500", bottom: "to-teal-300" }}
+    emoji="📖"
+  />
   <main class="container mx-auto px-4 sm:px-8">
     <ListNotes />
   </main>

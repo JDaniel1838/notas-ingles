@@ -6,3 +6,11 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.hv-50 {
+  height: 50vh;
+}
+
+.hv-20 {
+  height: 20vh;
+}
