@@ -900,7 +900,7 @@ const Vocabulario = () => {
             ))
           ) : (
             <p className="border rounded-md border-slate-300 p-2 font-medium text-zinc-600">
-              Aun no conozco esa palabra
+              Aun no conozco esa palabra 🥺
             </p>
           )}
         </div>
