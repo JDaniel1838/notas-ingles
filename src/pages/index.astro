@@ -1,16 +1,33 @@
 ---
+import BaseLayout from "../layouts/temas/BaseLayout.astro";
 import HeroImage from "../components/HeroImage";
 import ListNotes from "../components/ListNotes";
-import Layout from "../layouts/Layout.astro";
+const allPosts = await Astro.glob("../pages/temas/*.md");
+allPosts.sort(
+  (a, b) =>
+    Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontmatter.pubDate)
+);
 ---
 
-<Layout title="Mis Notas de Ingles">
+<BaseLayout>
   <HeroImage
     title="MIS NOTAS DE INGLES"
-    gradients={{ top: "from-sky-500", bottom: "to-teal-300" }}
-    emoji="📖"
+    gradients={{ top: "to-teal-300", bottom: "from-sky-700" }}
   />
-  <main class="container mx-auto px-4 sm:px-8">
-    <ListNotes />
-  </main>
-</Layout>
+
+  <ListNotes />
+
+  <script is:inline>
+    document.addEventListener("DOMContentLoaded", function () {
+      var script = document.createElement("script");
+      script.src = "/static/js/animation.js";
+      document.head.appendChild(script);
+
+      script.onload = function () {
+        console.log("lazyload.js loaded");
+        // when layout is loaded, load the images
+        initImage();
+      };
+    });
+  </script>
+</BaseLayout>

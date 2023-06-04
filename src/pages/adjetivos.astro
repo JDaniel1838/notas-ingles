@@ -1,14 +1,12 @@
 ---
+import HeroImage from "../components/temas/HeroImage";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Notas de adjetivos">
+  <HeroImage title="Adjetivos" client:load />
   <main class="container mt-11 mx-auto px-4 sm:px-8">
-    <h1 class="text-5xl font-bold text-zinc-700">Adjetivos</h1>
-
-    <section
-      class="mt-10 bg-zinc-100 p-4 rounded-lg shadow-sm shadow-zinc-500/40"
-    >
+    <section>
       <h2 class="text-3xl font-bold mb-3">¿Que son?</h2>
       <p class="">
         Los <b>adjetivos</b> son palabras especiales que se usan para describir a
@@ -18,7 +16,7 @@ import Layout from "../layouts/Layout.astro";
       </p>
     </section>
 
-    <section class="p-4 mt-4">
+    <section class="py-4 mt-4">
       <h2 class="text-3xl font-bold mb-3">Algunos ejemplos</h2>
       <ul>
         <li>🚗 A <b>green</b> car.</li>
@@ -32,7 +30,7 @@ import Layout from "../layouts/Layout.astro";
       </ul>
     </section>
 
-    <section class="p-4 mt-4">
+    <section class="py-4 mt-4">
       <h2 class="text-3xl font-bold mb-3">Adjetivos despues del verbo</h2>
       <p class="mb-2">
         En este caso, algunos adjetivos vienen <b>DESPUES</b> del verbo:
@@ -47,9 +45,7 @@ import Layout from "../layouts/Layout.astro";
       </ul>
     </section>
 
-    <section
-      class="mt-10 bg-zinc-100 p-4 rounded-lg shadow-sm shadow-zinc-500/40"
-    >
+    <section class="py-4 mt-4">
       <h2 class="text-3xl font-bold mb-3">Adjetivos propios</h2>
       <p class="">
         Los <b>adjetivos propios</b> nos ayudan a identificar y distinguir a una
@@ -84,7 +80,7 @@ import Layout from "../layouts/Layout.astro";
       </ul>
     </section>
 
-    <section class="p-4 mt-4">
+    <section class="py-4 mt-4">
       <h2 class="text-3xl font-bold mb-3">Prefijos con adjetivos</h2>
       <p class="mb-2">
         Los prefijos son palabras que se colocan al principio de esas palabras
@@ -109,7 +105,7 @@ import Layout from "../layouts/Layout.astro";
       </ul>
     </section>
 
-    <section class="p-4 mt-4">
+    <section class="py-4 mt-4">
       <h2 class="text-3xl font-bold mb-3">Adjetivos para personas</h2>
       <p class="mb-2">
         Los adjetivos suelen ocuparse comunmente para <b>describir</b> a una persona,

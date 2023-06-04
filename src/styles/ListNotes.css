@@ -32,7 +32,8 @@
     url("/img/bg-vocabulary.jpg");
 
   transition: 0.3s;
-  background-position: top left;
+  background-position: center;
+  background-size: cover;
   cursor: pointer;
 }
 
@@ -46,4 +47,132 @@
     url("/img/bg-vocabulary.jpg");
   transform: scale(1.05);
   transition: 0.3s;
+}
+
+/* TOPICS */
+.bg-frases-basicas {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 128, 119, 0.5) 0%,
+      rgba(255, 133, 122, 0.5) 0%,
+      rgba(255, 140, 127, 0.5) 21%,
+      rgba(249, 144, 133, 0.5) 52%,
+      rgba(207, 85, 107, 0.5) 78%,
+      rgba(177, 42, 91, 0.5) 100%
+    ),
+    url("/img/topics/bg-1-frases-basicas.jpg");
+  transition: 0.3s;
+  background-position: center;
+  cursor: pointer;
+}
+
+.bg-frases-basicas:hover {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 128, 119, 0.8) 0%,
+      rgba(255, 133, 122, 0.7) 0%,
+      rgba(255, 140, 127, 0.8) 21%,
+      rgba(249, 144, 133, 0.9) 52%,
+      rgba(207, 85, 107, 0.8) 78%,
+      rgba(177, 42, 91, 0.8) 100%
+    ),
+    url("/img/topics/bg-1-frases-basicas.jpg");
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+
+.bg-preguntas-basicas {
+  background-image: linear-gradient(
+      to right,
+      rgba(212, 252, 121, 0.5) 0%,
+      rgba(150, 230, 161, 0.5) 100%
+    ),
+    url("/img/topics/bg-2-preguntas-basicas.jpg");
+  transition: 0.3s;
+  background-position: center;
+  cursor: pointer;
+}
+
+.bg-preguntas-basicas:hover {
+  background-image: linear-gradient(
+      to right,
+      rgba(212, 252, 121, 0.8) 0%,
+      rgba(150, 230, 161, 0.7) 100%
+    ),
+    url("/img/topics/bg-2-preguntas-basicas.jpg");
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+
+.bg-ordenando-comida {
+  background-image: linear-gradient(
+      to top,
+      rgba(48, 207, 208, 0.5) 0%,
+      rgba(51, 8, 103, 0.5) 100%
+    ),
+    url("/img/topics/bg-3-ordenando-comida.jpg");
+  transition: 0.3s;
+  background-position: center;
+  cursor: pointer;
+}
+
+.bg-ordenando-comida:hover {
+  background-image: linear-gradient(
+      to top,
+      rgba(48, 207, 208, 0.8) 0%,
+      rgba(51, 8, 103, 0.7) 100%
+    ),
+    url("/img/topics/bg-3-ordenando-comida.jpg");
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+
+.bg-numeros {
+  background-image: linear-gradient(
+      to top,
+      rgba(244, 59, 71, 0.5) 0%,
+      rgba(69, 58, 148, 0.5) 100%
+    ),
+    url("/img/topics/bg-4-numeros.jpg");
+  transition: 0.3s;
+  background-position: center;
+  cursor: pointer;
+}
+
+.bg-numeros:hover {
+  background-image: linear-gradient(
+      to top,
+      rgba(244, 59, 71, 0.8) 0%,
+      rgba(69, 58, 148, 0.7) 100%
+    ),
+    url("/img/topics/bg-4-numeros.jpg");
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+
+.bg-gramatica {
+  background-image: linear-gradient(
+      to top,
+      rgba(112, 40, 228, 0.5) 0%,
+      rgba(229, 178, 202, 0.5) 100%
+    ),
+    url("/img/topics/bg-5-gramatica.jpg");
+  transition: 0.3s;
+  background-position: center;
+  cursor: pointer;
+}
+
+.bg-gramatica:hover {
+  background-image: linear-gradient(
+      to top,
+      rgba(112, 40, 228, 0.8) 0%,
+      rgba(229, 178, 202, 0.7) 100%
+    ),
+    url("/img/topics/bg-5-gramatica.jpg");
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+
+.list-notes a {
+  text-decoration: none;
 }
